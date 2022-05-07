@@ -1,0 +1,9 @@
+body {
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+h1 {
+  color: white;
+}
