@@ -5,26 +5,22 @@ let pcScore = 0
 //function win = console.log("you have won") and add 1 to UserScore
 //function lose = console.log("you have lost") and add 1 to pcScore
 //function draw = console.log("uh oh, its a draw") and do not change either -score variables
-  
-function win() {
-  userScore ++
-  console.log("You have won!")
-  console.log("Your score is " + userScore + " PcScore is " + pcScore)
-}
-function lose () {
-  pcScore ++
-  console.log("You have lost!")
-  console.log("Your score is " + userScore + " PcScore is " + pcScore)
-}
-function draw () {
-  console.log("Uh oh! You have drawn!")
-  console.log("Your score is " + userScore + " PcScore is " + pcScore)
-  ;
-}
-
-//for loop to reiterate the game for three rounds
 
 for (let i = 0; i <3; i++) {
+  function win() {
+    userScore ++
+    console.log("You have won!")
+    console.log("Your score is " + userScore + " PcScore is " + pcScore)
+  }
+  function lose () {
+    pcScore ++
+    console.log("You have lost!")
+    console.log("Your score is " + userScore + " PcScore is " + pcScore)
+  }
+  function draw () {
+    console.log("Uh oh! You have drawn!")
+    console.log("Your score is " + userScore + " PcScore is " + pcScore)
+  };
   playAgain ();
 }
 //takes input from user, stores in variable userChoice using prompt()
