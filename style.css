@@ -1,8 +1,9 @@
 body {
   background-color: blueviolet;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 h1 {
   color: white;
