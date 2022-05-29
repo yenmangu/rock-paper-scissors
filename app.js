@@ -4,7 +4,8 @@ let pcScore = 0
 
 //function win = console.log("you have won") and add 1 to UserScore
 //function lose = console.log("you have lost") and add 1 to pcScore
-//function draw = console.log("uh oh, its a draw") and do not change either -score variables
+//function draw = console.log("uh oh, its a draw") and do not change either 
+    //-score variables
 
 for (let i = 0; i <3; i++) {
   function win() {
